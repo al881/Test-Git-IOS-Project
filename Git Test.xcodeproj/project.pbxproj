@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C1323C7A19C8FF7A00EE169E /* ABTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C1323C7919C8FF7A00EE169E /* ABTest.m */; };
 		C1C30C8819BD0273009AF0A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C30C8719BD0273009AF0A7 /* Foundation.framework */; };
 		C1C30C8A19BD0273009AF0A7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C30C8919BD0273009AF0A7 /* CoreGraphics.framework */; };
 		C1C30C8C19BD0273009AF0A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C30C8B19BD0273009AF0A7 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C1323C7819C8FF7A00EE169E /* ABTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTest.h; sourceTree = "<group>"; };
+		C1323C7919C8FF7A00EE169E /* ABTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABTest.m; sourceTree = "<group>"; };
 		C1C30C8419BD0273009AF0A7 /* Git Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Git Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1C30C8719BD0273009AF0A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C1C30C8919BD0273009AF0A7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +120,8 @@
 				C1C30C9919BD0273009AF0A7 /* Main.storyboard */,
 				C1C30C9C19BD0273009AF0A7 /* ABViewController.h */,
 				C1C30C9D19BD0273009AF0A7 /* ABViewController.m */,
+				C1323C7819C8FF7A00EE169E /* ABTest.h */,
+				C1323C7919C8FF7A00EE169E /* ABTest.m */,
 				C1C30C9F19BD0273009AF0A7 /* Images.xcassets */,
 				C1C30C8E19BD0273009AF0A7 /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 			files = (
 				C1C30C9419BD0273009AF0A7 /* main.m in Sources */,
 				C1C30C9E19BD0273009AF0A7 /* ABViewController.m in Sources */,
+				C1323C7A19C8FF7A00EE169E /* ABTest.m in Sources */,
 				C1C30C9819BD0273009AF0A7 /* ABAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +463,7 @@
 				C1C30CB819BD0273009AF0A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C1C30CB919BD0273009AF0A7 /* Build configuration list for PBXNativeTarget "Git TestTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				C1C30CBB19BD0273009AF0A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
